@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechForge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+           <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>    
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Gallery</h1>
+            <p>fun@techforge</p>
+        
+        </div>
+        
+    
+    </section>
+    
+    
+<!---------------3best photos from each event------>
+    <section class="demoPic">
+        <h1>QUIZZLE</h1>
+        <p>CROSSWORD AND A FUN TECHNICAL TRIVIA</p>
+        <div class="row">
+            <div class="demopic_col">
+                <img src="images/event1.jpg">
+                <div class="layer">
+                    <h3>Photo1</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/event2.jpg">
+                <div class="layer">
+                    <h3>Photo2</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/event3.jpg">
+                <div class="layer">
+                    <h3>Photo3</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!---------------3best photos from each event------>
+    <!-- <section class="demoPic">
+        <h1>Event2Name</h1>
+        <p>asd fg rrr ttt wk fkk qhh dii vkk f f  fff eee  h h  d dd  h h ssss ff cc ccc tt  yyy</p>
+        <div class="row">
+            <div class="demopic_col">
+                <img src="images/samplephoto1.png">
+                <div class="layer">
+                    <h3>Photo1</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/samplephoto2.png">
+                <div class="layer">
+                    <h3>Photo2</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/samplephoto3.png">
+                <div class="layer">
+                    <h3>Photo3</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!---------------3best photos from each event------>
+    <!-- <section class="demoPic">
+        <h1>Event3Name</h1>
+        <p>asd fg rrr ttt wk fkk qhh dii vkk f f  fff eee  h h  d dd  h h ssss ff cc ccc tt  yyy</p>
+        <div class="row">
+            <div class="demopic_col">
+                <img src="images/samplephoto1.png">
+                <div class="layer">
+                    <h3>Photo1</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/samplephoto2.png">
+                <div class="layer">
+                    <h3>Photo2</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/samplephoto3.png">
+                <div class="layer">
+                    <h3>Photo3</h3>
+                </div>
+            </div>
+        </div>
+
+    </section> -->
+   
+
+
+<!-------footer------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We focus on applications based on todays and the upcoming technology, awareness, grasp,
+        etc.We also conduct fun events <br> and workshops on the topics related. Do join us, and lets
+        contribute our bit to in this drive!!</p>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/ankit-oli-702774191/">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/Ankitoli7">
+        <i class="fa fa-google-plus"></i>
+        </a>
+        <a href="https://www.instagram.com/ankitoli33/">
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ankit-oli-702774191/">
+        <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+    
+</section>
+    <!----------to toggle menu for phone------>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>

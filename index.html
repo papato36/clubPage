@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechForge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+           <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>    
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Driven By Tech</h1>
+            <p>Our aim is to collaborate with people of similar outlook to put forward the outcomes that will put a <br> remarkable impact on the future of science & technology.</p>
+            <a href="contact.html" class="hero-btn">Visit us to know more</a>
+        </div>
+    
+    </section>
+    <!-----------objective or goal section----------->
+    <section class="objectiveGoal">
+        <h1>Objective</h1>
+        <p style="font-size: 30px;"> " UPSKILLING IN THE FIELD OF TECHNOLOGY AND SCIENCES "</p>
+        <div class="row">
+            <div class="objectiveGoal-col">
+                <h3>Goal 1</h3>
+                <p> To foster the technical knowledge and skills of the students.</p>
+
+            </div>
+            <div class="objectiveGoal-col">
+                <h3>Goal 2</h3>
+                <p>To enhance the communication and interpersonal skills of the students.</p>
+
+            </div>
+            <div class="objectiveGoal-col">
+                <h3>Goal 3</h3>
+                <p>Show willingness to learn new technologies and make enough effort to remain updated with technology</p>
+
+            </div>
+
+
+        </div>
+    </section>
+<!---------------3best photos for demo------>
+    <section class="demoPic">
+        <h1>Group Photos</h1>
+        <p>Building a club from embryo stage to a powerful working unit</p>
+        <div class="row">
+            <div class="demopic_col">
+                <img src="images/samplephoto1.png">
+                <div class="layer">
+                    <h3>UNITY</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/samplephoto2.png">
+                <div class="layer">
+                    <h3>INTEGRITY</h3>
+                </div>
+            </div>
+            <div class="demopic_col">
+                <img src="images/samplephoto3.png">
+                <div class="layer">
+                    <h3>STRENGTH</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!------club features------>
+    <section class="features">
+        <h1>Features</h1>
+        <p style="font-size: 20px;">We at TECHFORGE believe in Teamwork <br> and supportive attitude.</p>
+        <div class="row">
+            <div class="features-col">
+                <img src="images_teamphoto/mem1.jpg">
+                <h3 style="margin-top: 160px;">1.</h3>
+                <p> To arrange different sensational events converged with innovation so understudies can acquire information about the life structures of the PC. </p>
+            </div>
+            <div class="features-col">
+                <img src="images_teamphoto/mem2.jpg">
+                <h3>2.</h3>
+                <p> To make students aware of the evolving technologies by organising seminars, workshops and guest lectures.</p>
+            </div>
+            <div class="features-col">
+                <img src="images_teamphoto/mem3.jpg">
+                <h3>3.</h3>
+                <p>We are always open to discussions <br> and feedbacks </p>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+
+
+
+<!----call to action---->
+<section class="cta">
+    <h1>Have any Query?</h1>
+    <a href="contact.html" class="hero-btn">Contact Us</a>
+</section>
+
+
+
+<!-------footer------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We focus on applications based on todays and the upcoming technology, awareness, grasp,
+        etc.We also conduct fun events <br> and workshops on the topics related. Do join us, and lets
+        contribute our bit to in this drive!!</p>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/ankit-oli-702774191/">
+        <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/Ankitoli7">
+        <i class="fa fa-google-plus"></i>
+        </a>
+        <a href="https://www.instagram.com/ankitoli33/">
+        <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ankit-oli-702774191/">
+        <i class="fa fa-linkedin"></i>
+        </a>
+    </div>
+    
+</section>
+    <!----------to toggle menu for phone------>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>

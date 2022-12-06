@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechForge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>    
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates & Events for 2022-2023</h1>
+    
+    </section>
+
+    <!-----blog page content------>
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <h2>Our Certificates & Events for 2022-2023</h2>
+                <p>The Department of Computer Engineering in association with TechForge CLUB
+                    conducted an event called “QUIZZLE”. </p>
+                    <br>
+                    <img src="images/poster.png">
+                    <p>A tech related event that tested participants knowledge and gave them a
+                        platform to showcase their ideas as well! This competition was witnessed by
+                        93 participants from various Engineering branches of NHCE.
+                    </p>
+                    <br>
+                    <p>QUIZZLE comprised of 2 rounds: <br>
+                        Round 1: Crossword <br>
+                        The students will be given crosswords on general knowledge and current
+                        affairs.
+                        Round 2: Quiz <br>
+                        The students will be given an array of questions about basic engineering
+                        sciences.
+                        Final evaluation of the participants was based on their highest score on the
+                        Round-2 Quiz. Dean Management Studies Dr Sheelan Mishra , The Head of the
+                        Computer Engineering department Dr SP Manikandan then revealed the two
+                        winning teams and presented them with their prizes.
+                    </p>
+                    <br>
+                    <img src="images/winner.png">
+                    <img src="images/winner2.png">
+            </div>
+            <div class="blog-right">
+                <h3>Characterstics</h3>
+                <div>
+                    <span>Fundamentals of Engineering</span>
+                    
+                </div>
+                <div>
+                    <span>Reaction Time</span>
+                    
+                </div>
+                <div>
+                    <span>Team work</span>
+                    
+                </div>
+                <div>
+                    <span>Technical Ability</span>
+                    
+                </div>
+                <div>
+                    <span>Spontaneity</span>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+<!-------footer------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We focus on applications based on todays and the upcoming technology, awareness, grasp,
+        etc.We also conduct fun events <br> and workshops on the topics related. Do join us, and lets
+        contribute our bit to in this drive!!</p>
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/ankit-oli-702774191/">
+            <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/Ankitoli7">
+            <i class="fa fa-google-plus"></i>
+            </a>
+            <a href="https://www.instagram.com/ankitoli33/">
+            <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ankit-oli-702774191/">
+            <i class="fa fa-linkedin"></i>
+            </a>
+    </div>
+    
+</section>
+    <!----------to toggle menu for phone------>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
